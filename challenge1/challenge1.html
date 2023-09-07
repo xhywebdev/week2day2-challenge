@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -11,13 +12,14 @@
         .container {
             width: 400px;
             height: 400px;
-            margin:100px auto;
+            margin: 100px auto;
             border-radius: 2px;
-            box-shadow: 0px 5px 10px 0px rgba(0,0,0,0.55);
+            box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.55);
             background: #512626;
             color: #fff;
             font-family: 'Open Sans', Helvetica, sans-serif;
         }
+
         .card {
             box-sizing: border-box;
             float: left;
@@ -27,11 +29,18 @@
             cursor: pointer;
             text-align: center;
             padding-top: 55px;
+            border: 3px solid #E27474;
         }
+        .card:hover {
+            border: 3px solid black;
+            font-size: 95%;
+        }
+
         .day {
             display: block;
             line-height: 120%;
         }
+
         .number {
             display: block;
             font-weight: 700;
@@ -39,28 +48,31 @@
             line-height: 100%;
         }
 
+        
     </style>
 </head>
+
 <body>
     <div class="container">
         <div class="cards">
-              <div class="card">
-                  <span class="day">Friday</span>
-                  <span class="number">15</span>
-              </div>
-              <div class="card">
-                  <span class="day">Saturday</span>
-                  <span class="number">16</span>
-              </div>
-              <div class="card">
-                  <span class="day">Sunday</span>
-                  <span class="number">17</span>
-              </div>
-              <div class="card">
-                  <span class="day">Monday</span>
-                  <span class="number">18</span>
-              </div>
+            <div class="card">
+                <span class="day">Friday</span>
+                <span class="number">15</span>
+            </div>
+            <div class="card">
+                <span class="day">Saturday</span>
+                <span class="number">16</span>
+            </div>
+            <div class="card">
+                <span class="day">Sunday</span>
+                <span class="number">17</span>
+            </div>
+            <div class="card">
+                <span class="day">Monday</span>
+                <span class="number">18</span>
+            </div>
         </div>
     </div>
 </body>
+
 </html>
